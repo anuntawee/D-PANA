@@ -1,0 +1,98 @@
+@font-face {  
+    font-family: 'PGVIM';
+    src: url('/font/PGVIM.woff') format('woff');  
+    font-weight: normal;  
+    font-style: normal;  
+} 
+@font-face {  
+    font-family: 'ASGMatrathanLight';
+    src: url('/font/ASGMatrathanLight.woff') format('woff');  
+    font-weight: normal;  
+    font-style: normal;  
+}
+@font-face {  
+    font-family: 'WDB_Bangna';
+    src: url('/font/WDB_Bangna.woff') format('woff');  
+    font-weight: normal;  
+    font-style: normal;  
+}
+
+@font-face {  
+    font-family: 'RSU_Regular';
+    src: url('/font/RSU_Regular.ttf') format('truetype');  
+    font-weight: normal;  
+    font-style: normal;  
+}
+@font-face {  
+    font-family: 'Quark-Light';
+    src: url('/font/Quark-Light.otf') format('otf');  
+    font-weight: normal;  
+    font-style: normal;  
+}
+@font-face {  
+    font-family: 'Supermarket';
+    src: url('/font/supermarket.ttf') format('truetype');  
+    font-weight: normal;  
+    font-style: normal;  
+}
+
+@font-face {  
+    font-family: 'THSarabunNew';
+    src: url('/font/THSarabunNew.ttf') format('truetype');  
+    font-weight: normal;  
+    font-style: normal;  
+}
+
+@font-face {
+  font-family: 'Mitr';
+  font-style: normal;
+    font-weight: normal;  
+  src: local('Mitr'), local('Mitr-Regular'), url(https://fonts.gstatic.com/s/mitr/v1/9JgJRDjvXIlZXT4gtis1dA.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Maitree';
+  font-style: normal;
+    font-weight: normal;  
+  src: local('Maitree'), url(https://fonts.gstatic.com/s/maitree/v1/gc5XOH6eiK1MZRv91EFtpvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Kanit'), local('Kanit-Regular'), url(https://fonts.gstatic.com/s/kanit/v1/RPQGAQk3DD66RypwKRnBKQ.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Pattaya';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Pattaya'), local('Pattaya-Regular'), url(https://fonts.gstatic.com/s/pattaya/v1/BLoFwaSoCTX5ScC_H1wfZ_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Itim';
+  font-style: normal;
+  font-weight: normal;
+   src: local('Itim'), local('Itim-Regular'), url(https://fonts.gstatic.com/s/itim/v1/K0fGzmj4WhCGfRyqF-GWtw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Sriracha';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sriracha'), local('Sriracha-Regular'), url(https://fonts.gstatic.com/s/sriracha/v1/CB6rOAcr_-ZXr5Yhxg3NjxTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Prompt'), local('Prompt-Regular'), url(https://fonts.gstatic.com/s/prompt/v1/VcBIOGXxp08iW8zks9yUFPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+
+@font-face {  
+    font-family: 'Waffle';
+    src: url('/font/Waffle Regular.ttf') format('truetype');  
+    font-weight: normal;  
+    font-style: normal;  
+}

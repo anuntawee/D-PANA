@@ -1,0 +1,430 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.textbox {
+width:150px;
+min-height:20px;
+}
+
+.vdobox {
+  position: absolute;
+  min-width:70px;
+  min-height:50px;
+  background-color: transparent;
+  border-width:0px;
+  width: 100%;
+  height: 100%;
+}
+
+.fixed-bg {
+    min-height: 500px;
+    background-attachment: fixed;
+}
+
+.slidebox {
+  position: absolute;
+  min-width:70px;
+  height:50px;
+  background-color: transparent;
+  border-width:0px;
+  width: 100%;
+}
+
+.draggable {
+  background-color: transparent;
+  border-width:0px;
+  z-index:99999;
+}
+
+.table-main {
+    display:table;
+    width:100%;
+    height:100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    }
+
+.table-inner {
+    display:table;
+    margin: 0 auto;
+}
+
+.table-row{  
+     display:table-row;
+}
+.table-row .col{
+display:table-cell;
+}
+
+.colnob{
+display:table-cell;
+}
+
+table{
+width:100%;
+}
+
+.tableNoline td,.tableNoline th {
+	padding: 5px;
+}
+
+.center-desktop {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cmain .center-tablet, .cmain .center-desktop, .cmain .center-phone, .cmain .center-laptop {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.myIframe {
+    position: relative;
+    padding-bottom: 30.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.myIframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	overflow-x:hidden;
+}
+
+.classbarx {
+	position: absolute;
+	height: 200px;
+	min-width:100%;
+	width:100%;
+	top: 0;
+	left: 0;
+    z-index:55;
+}
+
+
+.rcontainer { 
+    position: relative;
+    z-index:60;
+	padding: 0px !important;
+}
+
+.rcontainerns {
+	height: 0px !important;
+    position: relative;
+    z-index:60;
+}
+
+#pageedit
+ {
+	background:url('/center/imgcenter/icon/grid.png');
+	min-height:150%;
+}
+
+.smain {
+    z-index:30;
+}
+
+.cmenu {
+	min-width:50px;
+	min-height:10px;
+}
+
+
+.cslide,.cgallery {
+	min-width:20px;
+	min-height:100px;
+}
+
+.cmain {
+	min-height:500px;
+}
+
+.cbox {
+	min-width:150px;
+	min-height:50px;
+	position: absolute;
+    top: 0;
+    left: 0;
+	z-index:1090;
+}
+
+.subcon {
+	padding: 0;
+	height:auto;
+}
+
+  .column100 { width: 100%; }
+  .column80{ width: 80%; }
+  .column75 { width: 75%; }
+  .column66 { width: 66.7%; }
+  .column50 { width: 50%; }
+  .column33 { width: 33.3%; }
+  .column25 { width: 25%; }
+  .column20 { width: 20%; }
+  .column10 { width: 10%; }
+  .columnright { float: right; }
+  .columncenter { left: 33.33%; }
+
+.cnav{
+	min-height:40px;
+    max-width: 100%;
+}
+.thtnav {
+    min-width: 100%;
+}
+
+.rezdivt {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.rbody {
+  min-width:100px;
+  background-color: transparent;
+}
+
+
+.shadow {
+	-moz-box-shadow: 1px 1px 0px #000;
+	-webkit-box-shadow: 1px 1px 0px #000;
+	box-shadow: 1px 1px 0px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+
+.img-responsive {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.dragimg {
+}
+
+.image-container img {
+  height: auto;
+  width: 100%;
+}
+
+.image-container{
+  height: auto;
+  width: 100%;
+}
+
+.noresp {
+	position: absolute;
+}
+
+.nopad {
+	padding: 0px !important;
+}
+
+.fsize {
+position: absolute;
+height: auto;
+width: auto;
+}
+
+
+.vmenu {
+position: absolute;
+height: auto;
+width: auto;
+z-index:9999;
+}
+
+.editsize {
+background-color: #ffccff;
+}
+
+.mframe {
+    position: absolute;
+    background-color: #bcd5e6;
+    text-align: center;
+}
+
+.tframe {
+    height: 100%;
+    width: 100%;
+}
+
+html,body{
+     height: 100%;
+}
+
+.item  {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+
+.dlightsc {
+position: absolute;
+width: 100%;
+height: 100%;
+z-index:888;
+background-color: rgba(0,0,0,0.3);
+}
+
+.bgover {
+background-color: rgba(0,0,0,0.1);
+}
+
+.ui-resizable-s {
+height: 8px;
+background:url('/center/imgcenter/icon/resizable.png');
+background-position:50% -26px;
+background-repeat: no-repeat;
+background-color: #dddddd;
+}
+
+/* handle on the right */
+.ui-resizable-e {
+width: 8px;
+background:url('/center/imgcenter/icon/resizable.png');
+background-position:-26px 50%;
+background-repeat: no-repeat;
+background-color: #dddddd;
+}
+/* handle icon (corner) */
+.ui-resizable-se {
+    width: 10px;
+    height: 10px;
+}
+
+.disabled {
+  opacity: 0.5
+  pointer-events: none
+  cursor: default
+}
+
+ap {
+  color:#00cc00
+}
+
+.dshare {
+    max-width: 50px;
+    padding: 5px;
+	width: 45px !important;
+} 
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 9999;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+@media screen and ( max-width:650px ) {
+	.ui-dialog { width: 100% !important;}
+    .fullphone { width: 100% !important;}
+	 div li { margin-left: 0 !important;margin-right: 0 !important;}
+    .column100 { width: 100% !important;}
+    .column80 { width: 100% !important;}
+    .column75 { width: 100% !important;}
+    .column66 { width: 100% !important;}
+    .column50 { width: 100% !important;}
+    .column33 { width: 100% !important;}
+    .column25 { width: 100% !important;}
+    .column20 { width: 100% !important;}
+    .column10 { width: 50% !important;}
+	#leftside {top:43px;position: absolute !important;}
+	#leftside { left: 0px;padding:0px;}
+	#rightside { top:43px;position: absolute !important;}
+	#rightside {right: 0px !important;padding:0px;}
+	#leftside { width:300px !important;}
+	#rightside { width:300px !important;}
+	.rconside { width: 100% !important;}
+
+    .navbar-default {
+		position: absolute;
+        z-index: 9999;
+        top: 0 !important;
+        left: 0 !important;
+    }  
+	
+    .navright {
+		position: absolute !important;
+        z-index: 9999;
+        top:  0 !important;
+        right: -15px !important;
+    }
+
+    .navrightfull {
+		position: absolute !important;
+        z-index: 9999;
+        top:  0 !important;
+        right: 0 !important;
+    } 
+	
+	.rightto { top:0;left: 15px !important;}
+
+
+    .padside {
+        padding-top:35px !important;
+    }
+
+.subcon:not(.getheight) {
+	min-height: 20px !important;
+}
+
+}
+
+
+
+@media screen and (min-width:767px){
+	#leftside { width:300px !important;}
+	#rightside { width:300px !important;}
+	#leftside { width:300px !important;}
+	#rightside { width:300px !important;}
+	#leftside .col { width:300px !important;}
+	#rightside .col { width:300px !important;}
+}
